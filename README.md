@@ -18,7 +18,8 @@ These instructions will set up the backend example for your project.  Once the s
 
 1. Navigate into the backend folder: ```cd backend```
 2. Install packages: ```npm i express mysql nodemon``` (maybe)
-3. If you want to run your backend on a port other than 8080, open the index.js file and edit the port number on the following line: ```//listen on port 8080, or change to desired port
+3. If you want to run your backend on a port other than 8080, open the index.js file and edit the port number on the following line: ``` javascript
+//listen on port 8080, or change to desired port
 app.listen(8080, () => {
   console.log("Server is running")
 });```

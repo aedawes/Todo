@@ -17,9 +17,8 @@ Start by cloning this repository into an appropriate folder on your device and n
 These instructions will set up the backend example for your project.  Once the server is up and running, you should be able to connect to the backend on http://localhost:8080 (or another port if you choose to change it) and test your project's endpoints once you code them.
 
 1. Navigate into the backend folder: ```cd backend```
-2. Install the dependencies: ```npm install``` (maybe)
-3. Install packages: ```npm i express mysql nodemon``` (maybe)
-4. If you want to run your backend on a port other than 8080, open the index.js file and edit the port number on the following line: 
+2. Install the dependencies: ```npm install```
+3. If you want to run your backend on a port other than 8080, open the index.js file and edit the port number on the following line: 
 ``` javascript
 //listen on port 8080, or change to desired port
 app.listen(8080, () => {

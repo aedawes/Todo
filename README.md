@@ -12,7 +12,7 @@ This is the code provided as an example for you to edit on your own and alter to
 
 Start by cloning this repository into an appropriate folder on your device and navigating to that folder.
 
-# Backend
+### Backend
 
 These instructions will set up the backend example for your project.  Once the server is up and running, you should be able to connect to the backend on http://localhost:8080 (or another port if you choose to change it) and test your project's endpoints once you code them.
 
@@ -20,7 +20,7 @@ These instructions will set up the backend example for your project.  Once the s
 2. 
 
 
-# Frontend
+### Frontend
 2. Run ```cd frontend``` to navigate to the frontend foler
 3. Run ```npm install``` to install the correct dependencies for the react app
 4. Run ```npm start``` to start up the frontend and to run the app on http://localhost:3000

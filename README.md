@@ -26,6 +26,16 @@ app.listen(8080, () => {
 });
 ```
 4. Run the server with nodemon (nodemon allows us to make live changes without restarting the backend): ```npm start```
+5. Edit the following line to connect to your specific mysql database:
+``` javascript
+const db = mysql.createConnection({
+    host: "127.0.0.1", //FIX ME: change to your database host address
+    user: "root", //FIXME: change to your database username
+    password: "root", //FIXME: change to your database username
+    database: "Todo" //FIXME: change to the name of your database (don't confuse the name of the db with the name of your schema)
+})
+```
+7. Edit index.js in this folder to create your endpoints for your application.  Once they are created, make sure the server is running and use a tool like "Postman" to make sure your endpoints are working and interacting with your database the way they should.
 
 
 ### Frontend

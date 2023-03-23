@@ -16,7 +16,8 @@ Start by cloning this repository into an appropriate folder on your device and n
 
 These instructions will set up the backend example for your project.  Once the server is up and running, you should be able to connect to the backend on http://localhost:8080 (or another port if you choose to change it) and test your project's endpoints once you code them.
 
-This required node.js to be installed on your device.  Installing this is just a google away but is different depending which machine you have.
+**This required node.js to be installed on your device.  Installing this is just a google away but is different depending which machine you have.
+MAKE SURE YOU HAVE AN UP TO DATE node.js! I am using version 18.4.0 so older versions of node.js may cause issues.  These typically show up in the form "module not found"**
 
 1. Navigate into the backend folder: ```cd backend```
 2. Install the dependencies: ```npm install```

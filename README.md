@@ -44,7 +44,7 @@ const db = mysql.createConnection({
 ### Frontend
 2. Run ```cd frontend``` to navigate to the frontend foler
 3. Run ```npm install``` to install the correct dependencies for the react app
-4. Run ```pip install axios``` to install axio, used to make our calls to the backend
+4. Run ```npm install axios``` to install axio, used to make our calls to the backend
 5. Go to App.js and look for the innermost tag that says <Route/> and note how this is done.  If you want to add pages to your application, this is where to do it!
 6. If you end up adding a route, make sure you add the corresponding page in the pages folder.  Format that page like my example Todos.jsx. Then back in App.js, make sure you import the file at the top.
 7. Edit your page or reformat Todos.js depending on your routes to suit your apps needs.

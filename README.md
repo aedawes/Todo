@@ -1,4 +1,8 @@
 # TODO APP
+This app is a basic todo framework using Vue.js. It uses a MySQL database and was designed to allow students in a databases class I TA'd to limit the amount of frontend work they needed to figure out so they could focus more on their actual databases. The instructions below describe how the students may set it up.
+
+-----------------------------------------------------------------
+
 This is the code provided as an example for you to edit on your own and alter to adapt your apps needs.  It is a React.js application that uses the Chakra UI library for the frontend.  The backend is provided as an example of how to integrate your database to an application and has examples of all four CRUD operations.  As my database is local, this app will not run properly on your device but the axios database calls demonstrate how to adapt it to your own database.  However, the front end should still render, even if the buttons do not work.  In short, this code will:
 - Demonstrate a sample backend using node.js
 - Demonstrate how to use backend endpoints in the frontend code
@@ -44,7 +48,6 @@ const db = mysql.createConnection({
 ### Frontend
 2. Run ```cd frontend``` to navigate to the frontend foler
 3. Run ```npm install``` to install the correct dependencies for the react app
-4. Run ```npm install axios``` to install axios, used to make our calls to the backend
 5. Go to App.js and look for the innermost tag that says <Route/> and note how this is done.  If you want to add pages to your application, this is where to do it!
 6. If you end up adding a route, make sure you add the corresponding page in the pages folder.  Format that page like my example Todos.jsx. Then back in App.js, make sure you import the file at the top.
 7. Edit your page or reformat Todos.js depending on your routes to suit your apps needs.
